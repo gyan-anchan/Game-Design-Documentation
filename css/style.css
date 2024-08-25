@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Lena;
+    src: url('../fonts/Lena.ttf');
+}
+@font-face {
+    font-family: Outfit;
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+}
+body{
+    background-color: #D9D2C2;
+    margin: 0;
+}
+#emptyTop{
+    height:2vw;
+}
+#firstElement{
+    padding-top: 12vw;
+}
+.title {
+    color: #000;
+    font-family: Lena;
+    font-size: 15vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.28em; /* adjust this value */
+    letter-spacing: 1.44px;
+    padding-left: 9vw;
+}
+.sub-title{
+    color: #000;
+    font-family: Lena;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 9vw;
+    line-height: 0.1em;
+    margin-bottom: 1.5vw;
+}
+#uiuxPlug{
+    color: #A89E85;
+    font-family: "Outfit";
+    font-size: 3vw;
+    font-weight: 500;
+    text-decoration: underline;
+    padding-left: 9vw;
+    font-variant: all-small-caps;
+}
+.whiteplate{
+    background: #FDF6E3;
+    margin-top: -10vw;
+    padding-bottom: 5%;
+}
+.blackplate{
+    background: #333333;
+}
+#selfDescription{
+    display: flex;
+    width: 100vw;
+    padding: 2% 0%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#selfDescription p{
+    color: #FFF;
+    text-align: center;
+    width: 80%;
+    
+    /* Body */
+    font-family: Palatino;
+    font-size: 3.4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+img{
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.firstProject{
+    margin-top: 5%;
+}
+.imagelink{
+    margin: 0% 0% 5%;
+    background-color: #134a31;
+    height: 100vw;
+    width: 100vw;
+}
+.moreToCome{
+    text-align: center;
+    font-family: 'Outfit';
+    color: #6d644f;
+    font-size: 3.2vw;
+    margin-top: -0.5%;
+}
+footer{
+    display: flex;
+    width: 100vw;
+    justify-content: right;
+    align-items: right;
+    gap: 10px;
+    padding: 5% 0%;
+    padding-bottom: 8vw;
+    margin-right: 10%;
+    background-color: #FDF6E3;
+}
+.contactText{
+    text-align: right;
+    padding-right: 4vw;
+    font-size: 3vw;
+    margin-bottom: -5%;
+    color: #5e5339;
+}
+  
+@media screen and (min-width: 768px) {
+    .title {
+        display: inline-block;
+        color: #000;
+        font-family: Lena;
+        font-size: 10vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 0.28em; /* adjust this value */
+        letter-spacing: 1.44px;
+        margin-right: -7vw;
+    }
+    #firstElement{
+        padding-top: 12vw;
+        padding-left: 8.5vw;
+    }
+    .sub-title{
+        color: #000;
+        font-family: Lena;
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 9vw;
+        line-height: 0.1em;
+        margin-top: -1vw;
+        margin-bottom: 1.7vw;  
+    } 
+    #uiuxPlug{
+        color: #A89E85;
+        font-family: "Outfit";
+        font-size: 2.6vw;
+        font-weight: 500;
+        text-decoration: underline;
+        padding-left: 9vw;
+        font-variant: all-small-caps;
+    }
+    #selfDescription{
+        display: flex;
+        width: 100vw;
+        padding: 1% 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    #selfDescription p{
+        color: #FFF;
+        text-align: center;
+        width: 80%;
+        
+        /* Body */
+        font-family: Palatino;
+        font-size: 2.6vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
